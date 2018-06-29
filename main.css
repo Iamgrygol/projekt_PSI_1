@@ -1,0 +1,410 @@
+/* ==== background ==== */
+
+html{
+  display: block;
+}
+
+body{
+  background: linear-gradient(to bottom, #dfe3ee 150vh, #3B5998 0%);
+  bottom: 0;
+  display: block;
+}
+
+.general_wrapper{
+  width: 830px;
+  margin: 30px auto 150px auto;
+  padding: 440px 40px 140px 40px;
+  background: linear-gradient(to bottom, #ffffff 30vh, #8b9dc3 100%);
+  bottom 0;
+  position: relative;
+  display: block;
+}
+
+div{
+  display: block;
+}
+
+/* ==== logo ==== */
+
+.logo{
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 200px;
+  height: 150px;
+}
+
+#logoButton{
+  position: absolute;
+  top: 6px;
+  left: 0;
+}
+
+
+/* ==== header ==== */
+
+.header_txt{
+  position: absolute;
+  top: 40px;
+  left: 300px;
+  right: 50px;
+}
+
+.header_txt h2{
+  color: #3B5998;
+  font-size: 23px;
+  font-stretch:condensed;
+  text-transform:uppercase;
+  font-family: "Arial", "Times New Roman", sans-serif;
+  letter-spacing: -1px;
+  top: -20;
+  position: absolute;
+}
+
+.header_txt p{
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 20px;
+}
+
+/* ==== slider ==== */
+
+.slider{
+  position: absolute;
+  top: 180px;
+  left: 40px;
+  width: 828px;
+  height: 260px;
+  background: url(picture/slider.jpg);
+  font-family: "Times New Roman", "Arial", serif;
+}
+
+.slider h1{
+  position: absolute;
+  color: white;
+  font-size: 28px;
+  top: 140px;
+  left: 220px;
+}
+
+.slider p{
+  position: absolute;
+  color: white;
+  font-size: 12px;
+  top: 171px;
+  left: 220px;
+  line-height: 15px;
+}
+
+/* ==== menu ==== */
+
+.menu{
+  border-bottom: 1px solid;
+  color: #3B5998;
+  position: relative;
+  height: 30px;
+}
+
+.menu li{
+  float: left;
+  margin: 0px 19px 0px 2.5px;
+  padding: 6px 2px 6px 0px;
+  
+}
+
+.menu li:hover{
+  background: rgb(59,89,152,.3);
+  transition-duration: 0.5s;
+}
+
+#lastButton{
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.menu a{
+  text-decoration: none;
+  color: #3B5998;
+  text-transform: uppercase;
+  font-family: "Arial", "Times new roman", sans-serif;
+  font-weight: 700;
+}
+
+/* ==== contents ==== */
+
+
+.content {
+  position: relative;
+}
+
+.middle {
+  margin-bottom: 20px;
+  margin-top: 10px;
+  min-height: 300px;
+}
+
+
+.oFirmie {
+  float: left;
+}
+.Oferta
+{
+  float: left;
+}
+
+h3{
+  color: #3B5998;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-family: "Arial", "Times new roman", sans-serif;
+  margin: 10px 0 20px 0;
+}
+
+.oFirmie p{
+  font-family: "Arial", "Times new roman", sans-serif;
+  margin: 20px 10px 0 0;
+  font-size: 13px;
+  line-height: 20px;
+  width: 400px;
+  
+}
+
+.Oferta p{
+  font-family: "Arial", "Times new roman", sans-serif;
+  margin: 20px 0 0 0;
+  font-size: 13px;
+  line-height: 20px;
+  width: 410px;
+}
+
+/* ==== Partners ==== */
+
+.partnerzy {
+  position: relative;
+  height: 250px;
+  color: #3B5998;
+  border-bottom: 1px solid;
+}
+
+.partner {
+  list-style: none;
+  float: left;
+  margin-right: 59px;
+}
+
+#lastPartner{
+  margin-right: 0;
+}
+
+.partner a{
+  text-decoration: none;
+  color: black;
+  font-family: "Arial", "Times new roman", sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.partner a:hover{
+  transition-duration: 0.2s;
+  color: white;
+}
+
+
+/* ==== footer ==== */
+
+.footer{
+  position: absolute;
+  margin: 20px 0 0 25px;
+  list-style: none;
+  text-align: center;
+  min-height: 70px;
+  
+}
+
+.footer li{
+  float: left;
+  margin: 0 0 30px 30px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #3B5998;
+  font-family: "Arial", "Times new roman", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.footer a:hover{
+  transition-duration: 0.2s;
+  color: white;
+}
+
+.footer small{
+  font-size: 10px;
+  text-align: center;
+  display: block;
+  margin-left: 30px;
+}
+
+/*==================== */
+/* ==== for phone ==== */
+/*=====================*/
+
+@media(max-width: 600px)
+{
+  /* ==== general ==== */
+  
+  .general_wrapper{
+  background: linear-gradient(to bottom, #ffffff 80vh, #8b9dc3 100%);
+  margin: 0;
+  padding: 360px 0 140px 0;
+  }
+  /* ==== logo ==== */
+  
+  .logo{
+    left: 270px;
+  }
+  .logo img{
+    position: absolute;
+    width: 400;
+    height: auto;
+  }
+  
+  /* ==== header ==== */
+
+  .header_txt{
+    position: absolute;
+    top: 320px;
+    left: 80px;
+    right: 0px;
+  }
+
+  .header_txt h2{
+    color: #3B5998;
+    font-size: 43px;
+    font-stretch:condensed;
+    text-transform:uppercase;
+    font-family: "Arial", "Times New Roman", sans-serif;
+    letter-spacing: -1px;
+    top: -20;
+    position: absolute;
+  }
+
+  .header_txt p{
+    display: none;
+  }
+
+  /* ==== slider ==== */
+  
+  .slider{
+    display: none;
+  }
+  
+  /* ==== menu ==== */
+  
+  .menu{
+    height: 420px;
+    border: none;
+  }
+
+  .menu li{
+    float:none;
+    text-align: center;
+    margin: 0;
+    padding: 15px 0px 15px 0px;
+    background: #3B5998;
+  }
+
+  .menu li:hover{
+    transition-duration: 0.5s;
+    background: rgb(59,89,152,.8);
+  }
+
+  .menu a{
+    font-weight: 500;
+    font-size: 26px;
+    color: white;
+  }
+
+  /* ==== contents ==== */
+
+
+  .middle {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    min-height: 300px;
+  }
+
+  .oFirmie {
+    float:none;
+    text-align: center;
+  }
+  
+  .oFirmie img{
+    width: 500px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  
+  .Oferta img{
+    width: 500px;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .Oferta{
+    float: none;
+    text-align: center;
+  }
+
+  h3{
+    color: #3B5998;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: "Arial", "Times new roman", sans-serif;
+    margin: 10px 0 20px 0;
+  }
+
+  .oFirmie p{
+    position: relative;
+    font-family: "Arial", "Times new roman", sans-serif;
+    margin: 0 auto 30 auto;
+    font-size: 32px;
+    line-height: 40px;
+    width: 700;  
+  }
+
+  .Oferta p{
+    font-family: "Arial", "Times new roman", sans-serif;
+    margin: 0 auto 30 auto;
+    font-size: 32px;
+    line-height: 40px;
+    width: 700px;
+  }
+  
+  /* ==== Partners ==== */
+
+  .partnerzy {
+    display: none;
+  }
+
+/* ==== footer ==== */
+
+  .footer{
+    margin: 0 auto;
+    background: #3B5998;
+  }
+
+  .footer li{
+    display: none;
+  }
+
+  .footer small{
+    font-size: 20px;
+    color: white;
+    margin: 40 0 0 ;
+    min-width: 830px;
+    min-height: 100px;
+  }
+  
+}
+
